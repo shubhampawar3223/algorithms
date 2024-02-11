@@ -1,4 +1,4 @@
-//selection sort
+//selection sort (select minimum and swap)
 // Notes: find smallest element and then swap the ith and jth index ,
 // i index traverse from 0 to n-2,
 // and j index from i+1 to n-1
