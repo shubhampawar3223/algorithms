@@ -1,9 +1,9 @@
-//bubble sort
+//bubble sort (push the max number to the last by swapping the adjescent numbers)
 // Notes: find consecutive numbers are in ascending order or not and swap the numbers,
 // i index traverse from n-1 to 0,
 // and j index from 0 to n-1
 // here time complexity is like sum of numbers O(n*(n+1)/2)  which boils down to O(n^2)
-//to optimize the code we have added the dedSwapping counter so if given array is already sorted then soeting will npt happen and 
+//to optimize the code we have added the dedSwapping counter so if given array is already sorted then something will not happen and 
 //will break the loop this will make the time complexity O(N)
 
 function bubbleSort(arr){
